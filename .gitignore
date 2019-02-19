@@ -4,6 +4,10 @@
 *.dll
 *.so
 *.dylib
+bin/*
+
+# protobuf output
+api/api.pb.go
 
 # Test binary, build with `go test -c`
 *.test
