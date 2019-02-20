@@ -5,7 +5,6 @@ Hello, World in gRPC
 
 ```
 $ make all
-$ python -m SimpleHTTPServer 8081 &
 $ docker-compose up
 ```
 Then access `localhost:8081`.
