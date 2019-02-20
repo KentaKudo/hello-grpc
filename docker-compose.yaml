@@ -5,8 +5,6 @@ services:
     build:
       context: .
       dockerfile: server.Dockerfile
-    ports:
-      - "9090:9090"
 
   proxy:
     build:
@@ -16,3 +14,10 @@ services:
       - server
     ports:
       - "8080:8080"
+
+  web:
+    build:
+      context: .
+      dockerfile: web.Dockerfile
+    ports:
+      - "8081:8081"
