@@ -5,9 +5,15 @@
 *.so
 *.dylib
 bin/*
+dist/*
 
 # protobuf output
 api/api.pb.go
+api/api_pb.js
+api/api_grpc_web_pb.js
+
+# dependencies
+node_modules
 
 # Test binary, build with `go test -c`
 *.test
